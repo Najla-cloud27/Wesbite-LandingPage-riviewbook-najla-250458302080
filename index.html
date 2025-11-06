@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riview Book</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-8 py-4 bg-white shadow">
+      <div class="text-2xl font-bold text-purple-800">
+        <span class="text-green-500">Review</span>Book
+      </div>
+      <div class="flex-1 mx-8">
+        <input
+          type="text"
+          placeholder="Find the book you are looking for"
+          class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+        />
+      </div>
+      <ul class="font-serif hidden md:flex gap-6 text-gray-600 font-medium">
+        <li><a href="#" class="hover:text-purple-800">Home</a></li>
+        <li><a href="#" class="hover:text-purple-800">Bestseller</a></li>
+        <li><a href="#" class="hover:text-purple-800">Category</a></li>
+        <li><a href="#" class="hover:text-purple-800">Community</a></li>
+        <li><a href="#" class="hover:text-purple-800">Blog</a></li>
+      </ul>
+      <div class="ml-6">
+        <a
+          href="login.html"
+          class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+          >Login</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="flex flex-col md:flex-row items-center justify-between px-12 py-16 bg-white bg-no-repeat bg-cover"
+      style="background-image: url(/img/hero.png)"
+    >
+      <div class="max-w-lg">
+        <h1 class="text-4xl font-bold text-[#463C74] leading-snug">
+          Book is a window to the world
+        </h1>
+        <p class="mt-4 text-gray-600">
+          Wake up your dream by reading a book every day
+        </p>
+        <a
+          href="#"
+          class="mt-6 inline-block px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+          >Read Now</a
+        >
+      </div>
+      <div class="mt-8 md:mt-0">
+        <img
+          src="/img/ilustration2.png"
+          alt="Book Illustration"
+          class="w-80 md:w-[400px]"
+        />
+      </div>
+    </section>
+
+    <!-- Popular Now -->
+    <section class="px-12 py-12">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-gray-800">Popular Now</h2>
+        <a href="#" class="text-green-600 hover:underline">View All</a>
+      </div>
+      <!-- Card 1 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book1.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Selena</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Tere Liye</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book2.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">How To Master Your Habits</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">Felix Y Siauw</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book3.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Bintang</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Tere Liye</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book4.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Start With Why</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Simon Sinek</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Books -->
+    <section class="px-12 py-12 bg-gray-100">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-gray-800">Latest Books</h2>
+        <a href="#" class="text-green-600 hover:underline">View All</a>
+      </div>
+      <!-- Card 1 -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book5.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">The Compound Effect</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Darren Hardy</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book6.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Building A Story Brand</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Donald Miller</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book7.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Crushing It</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By Gary Vaynerchuk</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white p-4 shadow rounded-lg">
+          <img src="/img/book8.png" class="w-full rounded" />
+          <h3 class="mt-3 font-semibold">Atomic Habits</h3>
+          <img src="/img/Rating.png" class="mt-1" />
+          <p class="text-sm text-gray-500">By James Clear</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Recommended -->
+    <section
+      class="bg-white py-36 rounded-2xl bg-no-repeat bg-cover"
+      style="background-image: url(/img/hero.png)"
+    >
+      <div class="max-w-3xl mx-auto text-center">
+        <!-- Judul -->
+        <h2 class="text-2xl md:text-3xl font-bold text-purple-900 mb-6">
+          Recommended books <br />
+          from you to review
+        </h2>
+
+        <!-- Form -->
+        <div class="flex justify-center items-center">
+          <input
+            type="text"
+            placeholder="write your recommendation"
+            class="border border-gray-300 px-4 py-3 w-80 rounded-lg focus:outline-none"
+          />
+          <button
+            class="bg-lime-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-lime-600 ml-3"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div
+          class="relative border border-lime-400 rounded-lg p-6 text-center bg-white shadow-sm"
+        >
+          <!-- Foto -->
+          <img
+            src="/img/tes1.png"
+            alt="Eka Ardilah"
+            class="w-16 h-16 rounded-full mx-auto -mt-12 shadow"
+          />
+          <!-- Quote -->
+          <div
+            class="absolute top-4 right-4 text-lime-500 text-7xl font-bold w-16 h-12 rounded-full mx-auto -mt-10"
+          >
+            ❞
+          </div>
+          <h3 class="mt-4 font-semibold text-gray-800">Eka Ardilah</h3>
+          <p class="mt-2 text-gray-500 text-sm">
+            I feel very helpful with all the books provided, so I do my job
+            easily and happily
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="relative border border-lime-400 rounded-lg p-6 text-center shadow-sm"
+        >
+          <img
+            src="/img/test2.png"
+            alt="Hazar Hamzah"
+            class="w-16 h-16 rounded-full mx-auto -mt-12 shadow"
+          />
+          <div
+            class="absolute top-4 right-4 text-lime-500 text-7xl font-bold w-16 h-12 rounded-full mx-auto -mt-10"
+          >
+            ❞
+          </div>
+          <h3 class="mt-4 font-semibold text-gray-800">Hazar Hamzah</h3>
+          <p class="mt-2 text-gray-500 text-sm">
+            Thank you. Many good books to accompany everyday
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="relative border border-lime-400 rounded-lg p-6 text-center bg-white shadow-sm"
+        >
+          <img
+            src="/img/test3.png"
+            alt="Khoerunnisa"
+            class="w-16 h-16 rounded-full mx-auto -mt-12 shadow"
+          />
+          <div
+            class="absolute top-4 right-4 text-lime-500 text-7xl font-bold w-16 h-12 rounded-full mx-auto -mt-10"
+          >
+            ❞
+          </div>
+          <h3 class="mt-4 font-semibold text-gray-800">Khoerunnisa</h3>
+          <p class="mt-2 text-gray-500 text-sm">
+            Thanks team, many recommended books for me to read
+          </p>
+        </div>
+      </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#f9f3e7] py-10">
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Brand -->
+        <div>
+          <h2 class="text-2xl font-bold">
+            <span class="text-gray-800">Review</span
+            ><span class="text-green-600">Book</span>
+          </h2>
+          <p class="mt-2 text-gray-600">Is the best place to review a book</p>
+          <p class="mt-4 text-xs text-gray-500">
+            © 2021 ReviewBook. All rights reserved.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800">Navigation</h3>
+          <ul class="mt-2 space-y-1">
+            <li>
+              <a href="#" class="text-gray-700 hover:text-green-600">Home</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-green-600"
+                >Bestseller</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-green-600"
+                >Category</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-green-600"
+                >Community</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-green-600">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800">Company</h3>
+          <p class="mt-2 text-gray-700">admin@reviewbook.com</p>
+          <p class="text-gray-700">Jln. Sitabudhi No. 193</p>
+          <p class="text-red-600 font-medium">Bandung Indonesia</p>
+
+          <!-- Social Media -->
+          <div class="flex space-x-3 mt-3">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
